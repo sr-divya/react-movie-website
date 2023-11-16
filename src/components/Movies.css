@@ -1,0 +1,45 @@
+/* =========== Card Section ==============*/
+.card{
+    transition: transform 0.5s;
+    box-shadow: 0 8px 16px grey;
+    cursor: pointer; 
+    justify-content: center; 
+    /* margin-top: 100px; */
+    /* margin-bottom: -100px; */
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+h6{
+    color: darkgray;
+    letter-spacing: 1px;
+}
+
+
+.card img{
+    height:13rem;
+}
+
+/* =========== Media Queries============*/
+
+@media screen and (max-width:1279px) and (min-width:1024px){
+    .card{
+        /* min-width:10rem; */
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1023px) and (min-width:768px){
+    .card{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .card{
+        max-width: 100%;
+    }
+}
+
